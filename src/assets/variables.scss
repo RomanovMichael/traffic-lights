@@ -1,0 +1,65 @@
+:root {
+  // fonts
+  --font-family: 'Montserrat', sans-serif;
+
+  // sizes
+  // --size-module: 4px;
+  --border-radius: 16px;
+  --buttons-border-radius: 8px;
+
+  // colors
+
+  // Accent — Blue
+  --primary: #3C98E7;
+  --primary--select: rgba(60, 152, 231, 0.2);
+  --primary--active: rgba(60, 152, 231, 0.15); 
+
+  --primary--hover: #2792ed90;
+  --primary--hover-dense: #3a9ef5;
+  --primary--active-dense: #1d7ace;
+
+
+  // Accent — Green
+  --success: #55B77E;
+  --success--select: rgba(85, 183, 126, 0.2);
+  --success--active: rgba(85, 183, 126, 0.15);
+
+  --success--hover: #55b77e90;
+  --success--hover-dense: #66c28f;
+  --success--active-dense: #4a9b6c;
+
+  // Accent — Yellow
+  --warning: #F8C348;
+  --warning--select: rgba(248, 195, 72, 0.25);
+  --warning--active: rgba(248, 195, 72, 0.15);
+
+  --warning--hover: #f8c34890;
+  --warning--hover-dense: #f9d05a;
+  --warning--active-dense: #dbab3c;
+
+  // Accent — Red
+  --error: #F44949;
+  --error--select: rgba(244, 73, 73, 0.2);
+  --error--active: rgba(244, 73, 73, 0.15);
+
+  --error--hover: #f4494990;
+  --error--hover-dense: #f55a5a;
+  --error--active-dense: #d93a3a;
+
+  // Additional
+
+  --text: #494A52;
+  --white-text: #FFFFFF;
+  
+  --caption: #7D8691;
+  --placeholder: #B5B5B5;
+  --border: #E4E1E1; 
+  --input: #FCFCFC;
+  
+  --card: #FFFFFF;
+  --bg: #F3F3F4;
+  --white: #FFFFFF;
+
+  --overlay: rgba(30, 30, 30, 0.5);
+  --bg-hover: #e4e1e1;
+}

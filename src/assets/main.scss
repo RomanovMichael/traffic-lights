@@ -1,0 +1,58 @@
+@import 'variables';
+@import 'fonts';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg);
+  display: grid;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 5px;
+  cursor: pointer;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 60px;
+  background-color: var(--primary) !important;
+  border-radius: 2px;
+}
+
+::-webkit-resizer {
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./src/components/*"],
+      "STORES/*": ["./src/stores/*"],
+      "UTILS/*": ["./src/utils/*"],
+      "API/*": ["./src/composables/requests.js"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
