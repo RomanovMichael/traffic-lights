@@ -1,7 +1,7 @@
 import mapboxgl from 'mapbox-gl'
 
 export const initializeMap = (container, options) => {
-  mapboxgl.accessToken = import.meta.env.VITE_MAP_TOKEN
+  mapboxgl.accessToken = 'pk.eyJ1Ijoicm9tYW5vdjEiLCJhIjoiY2xqbjJtNWMyMWMzZzNxazJjemh5bmxreiJ9.l3GIkp0IhuNqHbmwN3W-zw'
 
   const map = new mapboxgl.Map({
     container: container,
