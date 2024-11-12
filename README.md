@@ -1,5 +1,5 @@
 # Traffic Lights
-![Иллюстрация к проекту](https://github.com/RomanovMichael/traffic-light/raw/master/public/preview.png)
+![Иллюстрация к проекту](https://github.com/RomanovMichael/traffic-lights/raw/master/public/preview.png)
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
