@@ -115,4 +115,9 @@ onMounted(() => {
   bottom: 0;
   right: 0;
 }
+
+.mapboxgl-ctrl-top-right {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
 </style>
