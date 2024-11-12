@@ -74,6 +74,7 @@ const initMap = () => {
     map.value.on('mousemove', e => handleMouseMove(e, map.value))
     map.value.on('mouseleave', e => handleMouseLeave(e, map.value))
     map.value.on('click', e => handleMarkerClick(e, map.value))
+    
     if(mapStore.mapPopup) {
       setMarkerState(mapStore.mapPopup.id, true)
       flyToMarker(mapStore.mapPopup)
