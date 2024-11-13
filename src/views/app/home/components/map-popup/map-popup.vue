@@ -60,8 +60,9 @@ const findHandler = () => {
 .map-popup {
   position: absolute;
   top: 5rem;
-  bottom: 5rem;
   left: 32px;
+  height: auto;
+  max-height: 30rem;
 
   &__content {
     max-height: calc(100% - 40px);
