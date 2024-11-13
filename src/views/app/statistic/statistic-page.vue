@@ -83,10 +83,10 @@ onMounted(async () => {
             <ui-select-button
               :options="chartTypes"
               :option-value="'id'"
-              @change="e => (chartType = e.value)"
-            >
+              v-model="chartType"
+              >
               <template #option="slotProps">
-                <i :class="slotProps.option.icon" />
+                <i :class="slotProps.option.icon"/>
               </template>
             </ui-select-button>
           </div>

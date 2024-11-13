@@ -24,3 +24,16 @@ import { navItems } from './config'
     </ui-menubar>
   </header>
 </template>
+
+<style lang="scss">
+.app-header {
+
+  .router-link-active.router-link-exact-active {
+    background-color: var(--primary);
+    color: white;
+    span {
+      color: white;
+    }
+  }
+}
+</style>
